@@ -1,0 +1,58 @@
+PRODUCT
+    Typhoon Web DataBase Administrator 1.2.2
+
+DESCRIPTION
+    Typhoon-Web-DataBase-Administrator-1.2.2 is a very easy to use,
+    sexy, powerful and extremely userfriendly Database
+    Administration Web-Program. It can administrate remote Database
+    Servers by simply Adding an Hostname or IP-Address and select a
+    Database type. Then fill in your Database username and password
+    in the newly created host entry and start working with twdba.cgi
+    For detailed description of what Typhoon-Web-DataBase-
+    Administrator-1.2.2 is all about the screenshots of twdba.html
+    It is also capable of copying an entire Database to an Empty
+    Database in a snap. You will see how sexy, easy and powerfull
+    this is!!! Drop me an email if you wish: radejong@planet.nl
+    Regards, Ron de Jong from Holland (Windmill & Cloggyland).
+
+PREREQUISITES
+    This script requires the CGI and DBI
+
+COREQUISITES
+    To operate this script you need:
+
+    Apache
+
+    DBD::dbdriver
+
+FILES
+    Typhoon-Web-DataBase-Administrator-1.2.2.tar.gz
+
+    The tarball contains the following file:
+
+    twdba-1.2.2/README (explanation)
+
+    twdba-1.2.2/twdba.cgi (program)
+
+    twdba-1.2.2/twdba.html (Screenshots)
+
+INSTALLATION
+    To install TWDBA, just copy Typhoon-Web-Database-1.?.?.tar.gz to
+    a temp directory Such as /var/tmp and type the following: gzip -
+    cd Typhoon-Web-Database-1.?.?.tar.gz | tar xvf - This will
+    create a directory called twdba-1.?.? Go into the directory and
+    copy twdba.cgi to your cgi-bin directory of your HTTP server
+    Often this will be /usr/local/apache/cgi-bin/ The only thing
+    left is to set the owner and filepermissions correct. The owner
+    shout be the user that is also running httpd (web-server) A
+    quick "ps -ef | grep httpd" will give you the releated username
+    Type chown nobody:nobody /usr/local/apache/cgi-bin/twdba.cgi
+    Type chmod 740 /usr/local/apache/cgi-bin/twdba.cgi The above
+    will set nobody nobody rwx r-- --- twdba.cgi (nobody is an
+    advised httpd user).
+
+    any
+
+    CGI CPAN/Administrative Networking Fun/Educational Web
+    Interfaces
+
